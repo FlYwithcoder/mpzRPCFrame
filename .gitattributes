@@ -1,0 +1,9 @@
+# 忽略 Makefile 相关文件的语言统计
+Makefile linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.mk linguist-detectable=false
+
+# 强制标记 C++ 文件
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+*.hpp linguist-language=C++
