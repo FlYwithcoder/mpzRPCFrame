@@ -1,0 +1,26 @@
+11:31:22 =>[info] ddddd
+11:31:22 =>[info] ddddd
+11:31:22 =>[info] service_name:FiendServiceRpc
+11:31:22 =>[info] method_name:GetFriendsList
+
+11:56:26 =>[info] /home/hf/CPPProjects/MPRPC/mprpc/example/callee/friendservice.cc:main:50
+11:56:26 =>[info] first log message!
+11:56:26 =>[info] service_name:FiendServiceRpc
+11:56:26 =>[info] method_name:GetFriendsList
+12:5:8 =>[info] /home/hf/CPPProjects/MPRPC/mprpc/example/callee/friendservice.cc:main:50
+12:5:8 =>[info] first log message!
+12:5:8 =>[info] service_name:FiendServiceRpc
+12:5:8 =>[info] method_name:GetFriendsList
+15:46:31 =>[info] /home/hf/CPPProjects/MPRPC/mprpc/example/callee/friendservice.cc:main:50
+15:46:31 =>[info] first log message!
+15:46:31 =>[info] service_name:FiendServiceRpc
+15:46:31 =>[info] method_name:GetFriendsList
+15:57:52 =>[info] service_name:UserServiceRpc
+15:57:52 =>[info] method_name:Login
+15:57:52 =>[info] method_name:Register
+15:58:54 =>[info] service_name:UserServiceRpc
+15:58:54 =>[info] method_name:Login
+15:58:54 =>[info] method_name:Register
+19:22:35 =>[info] service_name:UserServiceRpc
+19:22:35 =>[info] method_name:Login
+19:22:35 =>[info] method_name:Register
