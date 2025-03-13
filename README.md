@@ -68,5 +68,5 @@ Dut to the reason that MPZRPC is a framework project, the exact business code is
 - `test`: test demo files
 
 # 🔀 Frame
-![worklow](mpzRPCFrame.drawio)
+![image](https://github.com/FlYwithcoder/mpzRPCFrame/blob/main/Frame.png)
 
