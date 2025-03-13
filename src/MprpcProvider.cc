@@ -192,11 +192,7 @@ void MprpcProvider::OnMessage(const muduo::net::TcpConnectionPtr &conn,
     google::protobuf::Message *response = service->GetResponsePrototype(method).New();
 
 #ifdef JSON
-    if (!google::protobuf::util::JsonStringToMessage(args_str, request).ok())
-    {
-        std::cout << "JSON request parse error, content:" << args_str << std::endl;
-        return;
-    }
+    google::protobuf::util::JsonStringToMessage(args_str, request);
 #else 
     //通过 GetRequestPrototype，可以根据方法描述符动态获取对应的请求消息类型，并New()实例化该类型的对象。
     if (!request->ParseFromString(args_str))
