@@ -70,3 +70,7 @@ Dut to the reason that MPZRPC is a framework project, the exact business code is
 # 🔀 Frame
 ![image](https://github.com/FlYwithcoder/mpzRPCFrame/blob/main/img/Frame.png)
 
+# 🔗 分支
+- mian分支使用的是muduo官方库
+- experiment使用的是自己实现的muduo网络库核心功能
+
