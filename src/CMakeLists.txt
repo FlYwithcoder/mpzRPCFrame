@@ -1,3 +1,5 @@
+# 当前文件夹下所有文件为 SRC_LIST
+#aux_source_directory(. SRC_LIST)
 set(SRC_LIST mprpcapplication.cc
              rpcheader.pb.cc
              rpcprovider.cc
