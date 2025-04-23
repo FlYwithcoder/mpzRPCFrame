@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(mprpc)
 
-# 生产debug版本
+# 生成debug版本
 set(CMAKE_BUILD_TYPE "Debug")
 
 # 设置项目可执行文件输出的路径
